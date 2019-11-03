@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/shopping-cart-151684_960_720.ico" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Market UABCS - Carrito de Compras</title>
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+           <ul class="menu">
+               <li class="li-menu"><a href="index.html">Inicio</a></li>
+               <li class="li-menu"><a href="carrito.html">Carrito De Compras</a></li>
+               <li class="li-menu"><a href="conocenos.html">Conocenos</a></li>
+           </ul>
+            <h1 class="logo"><i class="fas fa-shopping-cart"></i><a href="index.html" class="banner-text">Market UABCS</a></h1>
+            <div class="pull-left">
+                <a href="#" class="username"><i class="fas fa-user"></i></a>
+                <a href="#" class="logout"><i class="fas fa-sign-out-alt"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="slider">
+        <ul>
+            <li><img src="img/banner1.jpg" alt=""></li>
+            <li><img src="img/wallpaper-engine.jpg" alt=""></li>
+        </ul>
+    </div>
+    
+    <div class="container1">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: <span id="total">$</span></p>
+            </aside>
+        </div>
+    </div>    
+    
+    <div class="footer">
+        <img src="img/logouabcs1.png" alt="" class="uabcs">
+        <i class="fas fa-envelope">marketuabcs@uabcs.mx</i>
+        <i class="fab fa-facebook">MarketUABCS</i>
+        <i class="fas fa-map-marker-alt"><a href="https://www.google.com.mx/maps/place/Universidad+Aut%C3%B3noma+de+Baja+California+Sur/@24.1013365,-110.3178352,17z/data=!3m1!4b1!4m5!3m4!1s0x86ae2cc9260538c5:0xeba4c83e4e2e088e!8m2!3d24.1013365!4d-110.3156465" class="map" target="_blank">UABCS</a></i>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
+    <script src="inicio.js"></script>
+    <script src="carrito.js"></script>
+    <script>init()</script>
+</body>
+</html>

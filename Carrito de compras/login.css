@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/smooth-blaze.jpg);
+    background-size: 100% 100% 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.login{
+    width: 500px;
+    height: 550px;
+    margin: 0 auto;
+    background-image: linear-gradient(#3EEA5A, #1681EB);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    border: 3px solid #000;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#1681EB, #3EEA5A);
+    align-content: center;
+    justify-content: center;
+    border-bottom: 2px solid #3EEA5A;
+}
+
+.titulo{
+    margin: 0 auto;
+    font-family: 'Jomolhari', serif;
+}
+
+.fa-shopping-cart{
+    font-size: 70px;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+
+.user, .ps{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.name, .pass{
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+.txt{
+    color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 20px;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
